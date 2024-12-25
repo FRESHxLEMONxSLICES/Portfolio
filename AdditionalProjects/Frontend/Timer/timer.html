@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="timer.css">
+    <title>NINJA TIMER</title>
+</head>
+<body>
+    <div class="top-bar">
+        <div class="app-logo">
+            <img class="logo" src="imgs/Ninja Timer logo.png" width="150px">
+        </div>
+        <div class="exit-btn">
+            <a href="../frontend-projects.html"><img class="exit-btn-icon" src="imgs/cross.svg"></a>
+        </div>
+    </div>
+
+    <div class="timer">
+      <div class="time-container">
+          <h1 class="time" id="time">00:00:00 </h1>
+          <span class="milliseconds" id="milliseconds">.000</span>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="start">Start</button>
+        <button class="btn" id="stop">Stop</button>
+        <button class="btn" id="reset">Reset</button>
+      </div>
+    </div>
+
+  <script src="timer.js"></script>
+</body>
+</html>

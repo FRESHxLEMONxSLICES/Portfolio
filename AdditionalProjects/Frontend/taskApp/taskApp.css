@@ -1,0 +1,160 @@
+body {
+
+  font-family : Fustat ;
+  margin : 0 ;
+  padding : 0 ;
+  display : flex ;
+  justify-content : center ;
+  align-items : center ;
+  height : 100vh ;
+  background-color : white ;
+}
+
+.back-btn {
+
+  position: fixed;
+  right: 20px ; top : 20px ;
+  width: 30px ; height: 30px;
+  display : grid; justify-content: center; align-items: center;
+  border-radius: 100% ;
+  background-color : black ;
+}
+
+.back-btn:hover { background-color : red; }
+
+.task-app {
+
+  width : 90% ;
+}
+
+#note-input {
+
+  padding : 10px ;
+  font-size: 16px ;
+  color : black ;
+  background-color : white ;
+  box-shadow : 0 0 30px rgba(0,0,0,0.2) ;
+  width : 300px ;
+  margin-bottom : 20px ;
+  margin-right : 10px ;
+  border : none ;
+  border-radius : 5px ;
+}
+
+#note-input::placeholder {
+
+  font-family : Fustat ;
+  color : black;
+}
+
+#note-input:focus {
+
+  outline : none ;
+}
+
+#add-note {
+
+  font-family : Fustat ;
+  padding : 8px 20px ;
+  transform : translateY( -2px ) ;
+  font-size : 16px ;
+  font-weight : bold ;
+  background-color : white ;
+  box-shadow : 0 0 30px rgba(0,0,0,0.2) ;
+  color : black ;
+  border : none ;
+  border-radius : 5px ;
+  cursor: pointer ;
+}
+
+#add-note:hover {
+
+  background-color : rgb(228, 228, 228) ;  
+}
+
+#notes-container {
+
+  position: relative ;
+  width: 100% ;
+  height: 500PX ;
+  margin-top: 20px;
+  background-color: white ;
+  box-shadow : 0 0 30px rgba(0,0,0,0.2) ;
+  border-radius : 10px ;
+  overflow: hidden;
+}
+
+.note {
+
+  position: absolute;
+  color : black ;
+  background-color: white ;
+  box-shadow : 0 0 30px rgba(0,0,0,0.2) ;
+  padding: 10px;
+  font-size: 18px;
+  cursor: move;
+  border-radius: 5px;
+  min-width: 200px;
+  max-width: 200px ;
+}
+
+.note.active {
+
+  z-index: 1000;
+  outline : solid black 1px ;
+}
+
+/* Color palette */
+
+.color-palette {
+
+  display : none ;
+  position : absolute ;
+  top : 120% ;
+  left : 0 ;
+  background-color : white ;
+  padding : 5px 5px 0px 5px ;
+  border-radius : 5px ; 
+  box-shadow : 0 4px 8px rgba(0, 0, 0, 0.2) ;
+  cursor : pointer ;
+}
+
+.color-palette div {
+
+  width : 20px;
+  height : 20px;
+  margin : 5px;
+  display : inline-block;
+  border-radius : 50%;
+}
+
+.color-palette div:hover {
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) ;
+}
+
+/* Delete btn */
+
+.delete-btn {
+
+  display: none;
+  font-family : Fustat ;
+  background-color : white ;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) ;
+  color: black ;
+  border: none ;
+  padding: 5px ; 
+  border-radius: 5px ;
+  cursor: pointer ;
+  margin-top: 5px ;
+  font-size: 12px ;
+  position: absolute ;
+  top: 110% ;
+  left: 90% ; /* Adjust based on your layout */
+}
+
+.delete-btn:hover {
+
+  background-color : red ;
+  color : white ;
+}
