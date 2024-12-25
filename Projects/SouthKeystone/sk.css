@@ -1,0 +1,465 @@
+html , body {
+
+    width : 100% ;
+    height : 100% ;
+    margin : 0 ;
+    padding : 0 ;
+    /* background-image : url( "imgs/BG_Portfolio(3).svg" ) ; */
+    background-color: white ;
+    font-family :  Outfit ;
+    font-weight: normal ;
+    scroll-behavior : smooth ;
+    color : black ;
+    font-size : 20px ;
+}
+
+a {
+
+    text-decoration : none ;
+    color : white ;
+}
+
+.back-btn {
+
+    width : 30px ;
+    height : 30px ;
+    position : fixed ;
+    top : 20px ; left : 20px ;
+    border-radius : 100% ;
+    background-color : black ;
+    display : flex ; align-items : center ; justify-content : center ;
+}
+
+.back-btn:hover {
+
+    transition-duration : 0.3s ;
+    background-color : red ;
+}
+
+.head-start-img-con {
+
+    text-align : center ;
+}
+
+.head-start-img {
+
+    width : 45% ;
+    margin : 250px 0 0 0 ;
+}
+
+.go-down-icon {
+
+    width : 20px ;
+    margin-top : 200px ;
+    animation : go-down-icon 2s infinite ease-in-out ;
+}
+
+@keyframes go-down-icon {
+
+    0% { transform : translateY( 0px ) }
+    50% { transform : translateY( 10px ) }
+    100% { transform : translateY( 0px ) }
+}
+
+        /*****************   Quick View   *****************/
+
+.project-info {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr ;
+    margin : 100px 30px ;
+}
+
+.project-details {
+
+    justify-self : end ;
+    font-style: italic;
+}
+
+.project-details ul {
+
+    list-style-type : none ;
+}
+
+.to-final-design-btn {
+
+    padding : 10px ;
+    border : solid 0.2px black ;
+    width : 200px ;
+    font-size : 18px ;
+    display : flex ;
+    gap : 10px ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.to-final-design-btn:hover {
+
+    transition-duration : 0.3s ;
+    background-color : black ;
+    color : white ;
+}
+
+        /*****************   Process   *****************/
+
+.con {
+
+    margin : 10px 0 ;
+    padding : 40px ;
+    min-height : 400px ;
+    background-color : black ;
+    color : white ;
+}
+
+.title {
+
+    font-weight : 650 ;
+    font-size : 24px ;
+}
+
+.process-con {
+
+    padding : 30px 30px ;
+    color : black ;
+}
+
+.process-content-con {
+
+    margin-top : 100px ;
+}
+
+.process-logo-con {
+
+    width : 100% ;
+    margin-top : 100px ;
+}
+
+.process-logo-img-con {
+
+    text-align : center ;
+}
+
+.process-logo-title {
+
+    font-size : 35px ;
+    font-weight : bold ;
+}
+
+.process-logo {
+
+    width : 100% ;
+}
+
+.process-brand-con {
+
+    margin-top : 200px ;
+}
+
+.process-brand-imgs-con p {
+
+    font-size : 30px ;
+    font-weight : bold ;
+}
+
+.process-why-con {
+
+    padding : 30px 50px ;
+    margin : 100px 0 ;
+    background-color : black ;
+    color : white ;
+}
+
+.process-why-title {
+
+    font-size : 30px ;
+}
+
+.process-pattern-img {
+
+    width : 100% ;
+    height : 300px ;
+    object-fit : cover ;
+}
+
+        /*****************   Collateral   *****************/
+
+.collateral-con {
+
+    padding : 100px 30px ;
+    background-color : white ;
+    color : black ;
+    font-size : 30px ;
+    text-align : center ;
+}
+
+/*****************   Social Media   *****************/
+
+.collateral-social-media {
+
+    background-color : black ;
+    padding : 10px ;
+    color : white ;
+}
+
+.collateral-social-media-profile-con {
+
+    display : flex ;
+    gap : 20px ;
+    text-align : left ;
+}
+
+.collateral-social-media-profile-pfp {
+
+    width : 55px ;
+    height : 55px ;
+    border-radius : 100% ;
+    transform : translateY( 35px ) ;
+    border : solid 0.3px white ;
+}
+
+.collateral-social-media-profile-content-followers {
+
+    transform : translateY( -30px ) ;
+    font-size : 20px ;
+    color : gray ;
+}
+
+.collateral-social-media-posts-con {
+
+    display : grid ;
+    width : 100% ;
+}
+
+.collateral-social-media-posts {
+
+    display : flex ;
+}
+
+.collateral-social-media-posts img {
+
+    width : 100% ;
+}
+
+/*****************   Posters   *****************/
+
+.posters-con {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr ;
+    margin-top : 10px ;
+    gap : 10px ;
+}
+
+.collateral-posters-con img { 
+
+    width : 100% ;
+}
+
+/*****************   Magazine   *****************/
+
+.collateral-magazine-con {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr ; 
+    align-items : center ;
+    margin-top : 200px ;
+}
+
+.collateral-magazine-title-con {
+
+    text-align : center ;
+}
+
+.collateral-magazine-title-highlight {
+
+    font-size : 20px ;
+    transform : translateY( -20px ) ;
+}
+
+.collateral-magazine-presenter-con {
+
+    display : flex ;
+    justify-self : center ;
+    align-items : center ;
+}
+
+.collateral-magazine-presenter-btn-con {
+
+    height : 100px ;
+    width : 50px ;
+    background-color : black ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+}
+
+.collateral-magazine-presenter-btn-con:hover {
+
+    background-color : rgb(29, 29, 29) ;
+    cursor : pointer ;
+}
+
+.collateral-magazine-presenter-img {
+
+    width : 100% ;
+    border : solid black 1px ;
+}
+
+        /*****************   Web Design   *****************/
+
+.web-design-con {
+
+    background-color : white ;
+    color : black ;
+    padding : 100px 30px ;
+    font-size : 24px ;
+}
+
+.web-design-title-con {
+
+    border : solid black 5px ;
+    padding : 10px 20px ;
+    text-align : center ;
+    width : 96% ;
+    font-size : 30px ;
+    margin-bottom : 50px ;
+}
+
+.web-design-portal-con {
+
+    display : block ;
+    align-items : center ;
+}
+
+.web-design-portal-btn {
+
+    border : solid black 2px ;
+    margin-bottom : 10px ;
+    font-weight : bold ;
+    width : 90% ;
+    height : 100px ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    transition-duration : 0.2s ;
+}
+
+.web-design-portal-btn:hover {
+
+    background-color : black ;
+    color : white ;
+}
+
+.web-design-portal-btn-content {
+
+    font-size : 20px ;
+}
+
+.web-design-portal-tools {
+
+    display : flex ;
+    gap : 10px ;
+}
+
+.web-design-portal-tools img {
+
+    width : 50px ;
+}
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+    font-family : fustat ;
+    font-size : 16px ;
+    font-weight : bolder ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
+
+        /*****************   Tablet Screen  *****************/
+
+@media only screen and ( max-width : 600px ) {
+
+    .collateral-magazine-con {
+
+        grid-template-columns : 1fr ;
+    }
+
+    .head-start-img {
+
+        width : 70% ;
+        margin : 250px 0 0 0 ;
+    }
+}
