@@ -1,0 +1,179 @@
+html , body {
+
+    margin : 0 0 ;
+    padding : 0 ;
+    background-color: black ;
+    font-family : Fustat, Outfit ;
+    font-weight: bolder ;
+    scroll-behavior : smooth ;
+    color : white ;
+}
+
+a {
+
+    text-decoration : none ;
+    color : white ;
+}
+
+::selection {
+
+    background-color : blueviolet ;
+    color : white ;
+}
+
+.back-btn {
+
+    padding : 10px ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    transition-duration : 0.2s ;
+    position : fixed ;
+    z-index : 1000 ;
+    top : 0 ;
+    width : 100% ;
+    background-color : black ;
+}
+
+.back-btn:hover {
+
+    background-color : black ;
+    color : white ;
+    filter : brightness( 1 ) invert(1);
+}
+
+.back-btn-icon {
+
+    transform : rotate( 60rad ) ;
+}
+
+.title {
+
+    text-align : center ;
+    font-size : 60px ;
+    margin-top : 100px ;
+}
+
+.note {
+
+    padding : 10px 30px ;
+    width : fit-content ;
+    background-color : rgb(12, 12, 12) ;
+    margin : 0 30px ;
+}
+
+.space {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin : 0 30px ;
+    gap : 10px ;
+    margin-top : 50px ;
+    font-weight : normal ;
+    font-style : italic ;
+}
+
+.space img {
+
+    width : 100% ;
+}
+
+.space p {
+
+    margin-top : -1px ;
+    text-align : right ;
+}
+
+.artworks {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr ;
+    gap : 10px ;
+    margin : 0 30px ;
+    margin-top : 50px ;
+    font-weight : normal ;
+    font-style : italic ;
+}
+
+.work img {
+
+    width : 100% ;
+}
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
