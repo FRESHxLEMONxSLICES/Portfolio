@@ -1,0 +1,516 @@
+html , body {
+
+    margin : 0 ;
+    padding : 0 ;
+    /* background-image : url( "imgs/BG_Portfolio(3).svg" ) ; */
+    background-color: rgb(240, 240, 240) ;
+    font-family : Fustat, Outfit ;
+    font-weight: bolder ;
+    scroll-behavior : smooth ;
+}
+
+a {
+
+    text-decoration : none ;
+    color : black ;
+}
+
+.back-btn {
+
+    border : solid black 1px ;
+    padding : 10px ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    transition-duration : 0.2s ;
+    position : fixed ;
+    z-index : 1000 ;
+    top : 0 ;
+    width : 100% ;
+    background-color : rgb(240, 240, 240) ;
+}
+
+.back-btn:hover {
+
+    background-color : white ;
+    border-color : white ;
+    filter : brightness( 1 ) invert( 1 ) ;
+}
+
+.back-btn-icon {
+
+    transform : rotate( 60rad ) ;
+}
+
+.title {
+
+    font-size : 60px ;
+    margin-top : 200px ;
+    text-align : center ;
+}
+
+/* Projects */
+
+.project {
+
+    text-align : center ;
+    margin : 100px 30px ;
+}
+
+.project:hover .project-content-title {
+
+    text-decoration : underline ;
+}
+
+.project-img {
+
+    width : 100% ;
+    height : 300px ;
+    object-fit : cover ;
+}
+
+.project-content-title {
+
+    text-align : left ;
+    font-size : 30px ;
+    margin-right : 100px ;
+}
+
+.project-content {
+
+    text-align : left ;
+    font-size : 20px ;
+    margin : -20px 100px 20px 0 ;
+}
+
+.project-apps-used {
+
+    display : flex ;
+    gap : 5px ;
+}
+
+.project-app-used {
+
+    width : 20px ;
+    height : 20px ;
+}
+
+/* Others */
+
+.others {
+
+    margin : 0 30px ;
+}
+
+.others-title {
+
+    margin : 100px 0 30px 0 ;
+    text-align : center ;
+    font-size : 45px ;
+}
+
+/* Others > Loadings */
+
+.loading-collection {
+
+    display : grid ;
+    margin-bottom : 100px ;
+}
+
+.loading-collection-title {
+
+    font-size : 25px ;
+}
+
+.loadings {
+
+    display : grid ;
+    grid-template-columns : auto auto auto 1fr ;
+    justify-self : center ;
+    align-items : center ;
+    gap : 50px ;
+    margin : 20px 30px ;
+}
+
+.loading {
+
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    border : solid black 1px ;
+    border-radius : 40px ;
+    width : 200px ;
+    height : 50px ;
+}
+
+/* 3 column loading */
+
+.loading-column {
+
+    height : 50% ;
+    width : 5px ;
+    margin : 0 2px ;
+    background-color : black ; 
+}
+
+.loading-column-1 {
+
+    animation: loading-column 0.7s infinite 2s ;
+}
+
+.loading-column-2 {
+
+    animation: loading-column 0.7s infinite 1s ;
+}
+
+.loading-column-3 {
+
+    animation: loading-column 0.7s infinite 2s ;
+}
+
+@keyframes loading-column {
+
+    0% { height : 30% }
+    50% { height : 50% }
+    100% { height : 30% }
+}
+
+/* 3 dots loading */
+
+.loading-dot {
+
+    background-color : black ;
+    width : 5px ;
+    height : 5px ;
+    border-radius : 100% ;
+    margin-right : 5px ;
+}
+
+.loading-dot-1 {
+
+    animation : loading-dot 2s infinite 1s ;
+}
+
+.loading-dot-2 {
+
+    animation : loading-dot 2s infinite 1.5s ;
+}
+
+.loading-dot-3 {
+
+    animation : loading-dot 2s infinite 2s ;
+}
+
+@keyframes loading-dot {
+
+    0% { opacity : 1 }
+    50% { opacity : 0 }
+    100% { opacity : 1 }
+}
+
+/* loading : circle of circles rotate */
+
+.loading-circle-of-circles {
+
+    border-radius : 100% ;
+    border : dotted black 2px ;
+    width : 20px ;
+    height : 20px ;
+    animation : loading-circle-of-circles 3s infinite linear ;
+}
+
+@keyframes loading-circle-of-circles {
+
+    0% { transform : rotate( 0deg ) }
+    100% { transform : rotate( 360deg ) }
+}
+
+/* Loading line */
+
+.loading-line {
+
+    width : 60% ;
+    border : solid black 1px ;
+    animation : loading-line 0.7s infinite ;
+}
+
+@keyframes loading-line {
+
+    0% { width : 40% } 
+    50% { width : 5% }
+    100% { width : 40% }
+}
+
+/* loading : jumping dots */
+
+.loading-dot-jumping {
+
+    background-color : black ;
+    width : 5px ;
+    height : 5px ;
+    border-radius : 100% ;
+    margin-right : 5px ;
+    margin-top : 20px ;
+}
+
+.loading-dot-jumping-1 {
+
+    animation : loading-dot-jumping 1s infinite 0.3s ;
+}
+
+.loading-dot-jumping-2 {
+
+    animation : loading-dot-jumping 1s infinite 0.5s ;
+}
+
+.loading-dot-jumping-3 {
+
+    animation : loading-dot-jumping 1s infinite 1.6s ;
+}
+
+@keyframes loading-dot-jumping {
+
+    0% { transform : translateY( 0px ) }
+    50% { transform : translateY( -5px ) }
+    100% { transform : translateY( 0px ) }
+}
+
+/* Loading : 4 squares */
+
+.loading-squares-btn {
+
+    display : flex ;
+    gap : 10px ;
+}
+
+.loading-square {
+
+    width : 10px ;
+    height : 10px ;
+    background-color : black ;
+}
+
+.loading-square-1 {
+
+    animation : loading-square 1s infinite -0.6s ;
+}
+
+.loading-square-2 {
+
+    animation : loading-square 1s infinite 0.5s ;
+}
+
+.loading-square-3 {
+
+    animation : loading-square 1s infinite 1.6s ;
+}
+
+.loading-square-4 {
+
+    animation : loading-square 1s infinite 1.7s ;
+}
+
+@keyframes loading-square {
+
+    0% { height : 10px }
+    50% { height : 0 }
+    100% { height : 10px }
+}
+
+/* Loading : line right left */
+
+.loading-line-rl {
+
+    border : solid black 1px ;
+    width : 100% ;
+    margin : 0 30% ;
+    animation : loading-line-rl 1.5s infinite ;
+}
+
+@keyframes loading-line-rl {
+
+    0% { margin-left : 70% }
+    25% { margin : 0 30% }
+    50% { margin-right : 70% }
+    75% { margin : 0 30% }
+    100% { margin-left : 70% }
+}
+
+/* Loading : fan rotation */
+
+.loading-fan-square-1 {
+
+    outline : solid 1px black ;
+    font-size : 0px ;
+    padding : 5px 5px ;
+    animation : loading-fan 3s infinite linear ;
+}
+
+.loading-fan-square-2 {
+
+    outline : solid 1px black ;
+    font-size : 0px ;
+    padding : 5px 5px ;
+    animation : loading-fan 3s infinite linear ;
+}
+
+.loading-fan-square-3 {
+
+    outline : solid 1px black ;
+    font-size : 0px ;
+    padding : 5px 5px ;
+    animation : loading-fan 3s infinite linear ;
+}
+
+.loading-fan {
+
+    display : flex ;
+    gap : 15px ;
+}
+
+@keyframes loading-fan {
+
+    0% { transform : rotate( 0deg ) }
+    100% { transform : rotate( 360deg ) }
+}
+
+/* Loading : square of leaves */
+
+.loading-square-of-leaves {
+
+    display : flex ;
+    gap : 3px ;
+}
+
+.loading-leaf-1 {
+
+    width : 15px ;
+    height : 15px ;
+    border-top-right-radius : 50px ;
+    border-top-left-radius : 50px ;
+    border-bottom-left-radius : 50px ;
+    background-color : black ;
+    animation : loading-leaf 1s infinite ;
+}
+
+.loading-leaf-2 {
+
+    width : 15px ;
+    height : 15px ;
+    border-top-right-radius : 50px ;
+    border-top-left-radius : 50px ;
+    border-bottom-right-radius : 50px ;
+    background-color : black ;
+    animation : loading-leaf 1s infinite 0.9s ;
+}
+
+@keyframes loading-leaf {
+
+    0% { opacity : 1 }
+    50% { opacity : 0 }
+    100% { opacity : 1 }
+}
+
+@media only screen and ( max-width : 1060px ){
+
+    .loadings {
+
+        display : grid ;
+        grid-template-columns : auto 1fr ;
+        justify-self : center ;
+        align-items : center ;
+        gap : 50px ;
+        margin : 20px 30px ;
+    }
+}
+
+@media only screen and ( max-width : 530px ){
+
+    .loadings {
+
+        display : grid ;
+        grid-template-columns : 1fr ;
+        justify-self : center ;
+        align-items : center ;
+        gap : 50px ;
+        margin : 20px 30px ;
+    }
+}
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
