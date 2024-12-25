@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080mm"
+   height="1080mm"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="BRS - Biomedical Research Academy.svg"
+   inkscape:export-filename="BRS - Biomedical Research Academy.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.088174197"
+     inkscape:cx="1451.6719"
+     inkscape:cy="1446.0013"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient34"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#40ab1f;stop-opacity:1;"
+         offset="0"
+         id="stop33" />
+      <stop
+         style="stop-color:#3c9f1d;stop-opacity:1;"
+         offset="1"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient28"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#48c123;stop-opacity:1;"
+         offset="0"
+         id="stop28" />
+      <stop
+         style="stop-color:#338819;stop-opacity:1;"
+         offset="1"
+         id="stop29" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,1,1,0,48.660409,0,1 @ F,0,0,1,0,48.660409,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,1,1,0,33.100176,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,33.100176,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient28"
+       id="linearGradient26"
+       x1="-5.3815246"
+       y1="627.93915"
+       x2="-133.7108"
+       y2="768.28925"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient34"
+       id="linearGradient33"
+       x1="595.86951"
+       y1="424.19061"
+       x2="594.85822"
+       y2="460.25174"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g34">
+      <g
+         id="g22"
+         transform="matrix(1.1024997,0,0,1.1024997,-395.6195,3.929097)">
+        <g
+           id="g21">
+          <path
+             id="rect21"
+             style="opacity:1;fill:url(#linearGradient26);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+             d="M 3.6000187 626.838 L -5.38132 627.93909 L -7.7013292 731.43104 L 12.984136 731.43073 L 3.6000187 626.838 z M -4.0398423 748.86606 L -165.20824 716.22987 L -184.52598 769.17031 L -0.42739182 765.9786 L -4.0398423 748.86606 z "
+             transform="rotate(-54.346592)" />
+        </g>
+        <circle
+           style="opacity:1;fill:#348b1a;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
+           id="path17"
+           cx="494.38113"
+           cy="575.00067"
+           r="55.166992" />
+        <circle
+           style="opacity:1;fill:#48c023;fill-opacity:1;stroke:none;stroke-width:0.163461;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
+           id="circle17"
+           cx="501.80746"
+           cy="360.33215"
+           r="18.035362" />
+        <circle
+           style="opacity:1;fill:url(#linearGradient33);fill-opacity:1;stroke:none;stroke-width:0.269231;stroke-linecap:square;stroke-opacity:1;paint-order:stroke fill markers"
+           id="circle18"
+           cx="616.38507"
+           cy="439.78226"
+           r="29.705303" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.792px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-decoration-color:#000000;letter-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         x="412.89676"
+         y="462.15567"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.792px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+           x="412.89676"
+           y="462.15567">Biomedical</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.792px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+           x="412.89676"
+           y="569.94806"
+           id="tspan23">Research</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:107.792px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+           x="412.89676"
+           y="677.74042"
+           id="tspan24">Academy</tspan></text>
+    </g>
+  </g>
+</svg>

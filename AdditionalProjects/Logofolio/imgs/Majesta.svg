@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="Premier Editor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.25982083"
+     inkscape:cx="946.8063"
+     inkscape:cy="944.8819"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="matrix(1.1787488,0,0,1.1787488,-24.420011,-25.215657)"
+       style="stroke-width:0.848357">
+      <path
+         id="rect2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 170.93173,236.34052 c 0.45092,-9.10086 -1.27155,-18.45274 -5.44105,-27.30356 -2.33555,-4.95782 -5.29146,-9.41208 -8.71648,-13.33766 l 6.78412,66.01788 c 4.37843,-7.74362 6.93043,-16.43626 7.37341,-25.37666 z m -10.62157,30.45475 -0.26788,-2.60698 -37.42353,-35.71507 -46.004431,48.88527 c 16.596789,14.02143 40.424751,17.90744 61.432011,8.01116 9.23937,-4.35249 16.74332,-10.84219 22.26383,-18.57438 z m -0.8597,-8.36033 -6.40192,-62.29732 -27.85713,29.60055 z m -6.97238,-67.16504 c -16.64134,-15.36955 -41.5017,-19.95421 -63.319164,-9.67628 -2.214862,1.04339 -4.316585,2.22474 -6.330677,3.50034 l -0.01501,0.19743 39.665771,37.85717 z m -32.57263,34.61273 -37.504241,-35.79246 -7.098772,83.1891 z M 78.827625,187.8686 c -2.440465,1.85116 -4.712525,3.86649 -6.786433,6.03727 -15.894732,16.63711 -20.750197,41.89486 -10.327555,64.01945 2.596569,5.51186 5.959612,10.40091 9.883636,14.63126 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.9958px;line-height:1;font-family:Outfit;-inkscape-font-specification:Outfit;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17036;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         x="310.26904"
+         y="252.27936"
+         id="text6"><tspan
+           sodipodi:role="line"
+           id="tspan6"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Outfit;-inkscape-font-specification:Outfit;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.17036"
+           x="310.26904"
+           y="252.27936">Majesta</tspan></text>
+    </g>
+  </g>
+</svg>

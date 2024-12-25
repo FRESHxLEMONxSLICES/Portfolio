@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="500mm"
+   height="500mm"
+   viewBox="0 0 500 500"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="BAFTEN.svg"
+   inkscape:export-filename="BAFTEN.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.18372107"
+     inkscape:cx="560.63248"
+     inkscape:cy="1020.5688"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1"
+       transform="translate(1.828065,13.576136)">
+      <path
+         id="path2"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4288;stroke-linecap:square;stroke-opacity:1;-inkscape-stroke:none"
+         inkscape:transform-center-x="9.662834e-06"
+         inkscape:transform-center-y="12.616666"
+         d="m 340.79316,108.03297 a 97.895524,97.895524 0 0 1 -69.50326,63.79559 l -10.18335,17.48576 -12.93462,22.59965 -12.93461,-22.59965 -10.18335,-17.48525 a 97.895524,97.895524 0 0 1 -69.37407,-63.44988 94.332833,94.332833 0 0 0 -1.84071,17.47182 94.332833,94.332833 0 0 0 59.27597,87.50628 l 13.34647,22.91746 21.7103,37.93205 21.7103,-37.93205 13.31185,-22.85804 a 94.332833,94.332833 0 0 0 59.3106,-87.5657 94.332833,94.332833 0 0 0 -1.71152,-17.81804 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.2855px;line-height:1;font-family:Oswald;-inkscape-font-specification:'Oswald Semi-Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.77379;stroke-linecap:square;stroke-opacity:1;-inkscape-stroke:none"
+         x="257.07889"
+         y="364.81476"
+         id="text7"
+         transform="skewX(-12.375188)"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Oswald;-inkscape-font-specification:'Oswald Semi-Bold';fill:#000000;fill-opacity:1;stroke-width:3.77379"
+           x="257.07889"
+           y="364.81476">BAFTEN</tspan></text>
+    </g>
+    <path
+       id="path1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4288;stroke-linecap:square;stroke-opacity:1;-inkscape-stroke:none"
+       inkscape:transform-center-x="9.662834e-06"
+       inkscape:transform-center-y="12.616666"
+       d="m 777.6567,108.03297 a 97.895524,97.895524 0 0 1 -69.50326,63.79559 l -10.18335,17.48576 -12.93462,22.59965 -12.93461,-22.59965 -10.18335,-17.48525 a 97.895524,97.895524 0 0 1 -69.37407,-63.44988 94.332833,94.332833 0 0 0 -1.84071,17.47182 94.332833,94.332833 0 0 0 59.27597,87.50628 l 13.34647,22.91746 21.7103,37.93205 21.7103,-37.93205 13.31185,-22.85804 a 94.332833,94.332833 0 0 0 59.3106,-87.5657 94.332833,94.332833 0 0 0 -1.71152,-17.81804 z"
+       inkscape:export-filename="Baften brandmark.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

@@ -1,0 +1,252 @@
+html , body {
+
+    margin : 0 ;
+    padding : 0 ;
+    /* background-image : url( "imgs/BG_Portfolio(3).svg" ) ; */
+    background-color: rgb(240, 240, 240) ;
+    font-family : Fustat, Outfit ;
+    font-weight: bolder ;
+    scroll-behavior : smooth ;
+}
+
+a {
+
+    text-decoration : none ;
+    color : black ;
+}
+
+hr {
+
+    border : solid 1px black ;
+    width : 80% ;
+    display : none ;
+}
+
+.back-btn {
+
+    border : solid black 1px ;
+    padding : 10px ;
+    font-size : 20px ;
+    font-weight : bolder ;
+    transition-duration : 0.2s ;
+    position : fixed ;
+    z-index : 1000 ;
+    top : 0 ;
+    width : 100% ;
+    background-color : rgb(240, 240, 240) ;
+}
+
+.back-btn:hover {
+
+    background-color : white ;
+    border-color : white ;
+    filter : brightness( 1 ) invert( 1 ) ;
+}
+
+.back-btn-icon {
+
+    transform : rotate( 60rad ) ;
+}
+
+.title {
+
+    font-size : 60px ;
+    margin-top : 200px ;
+    text-align : center ;
+}
+
+/* Logos */
+
+.project {
+
+    margin : 100px 30px ;
+    display : grid ;
+    grid-template-columns : auto 1fr ;
+    transition-duration : 0.2s ;
+}
+
+.project-img {
+
+    width : 300px ;
+    height : auto ;
+}
+
+.project-content-all {
+
+    display : grid ;
+    grid-template-rows : auto auto auto ;
+    margin-left : 50px ;
+}
+
+.project-content-title {
+
+    padding-bottom : 20px ; 
+}
+
+.project-content {
+
+    font-size : 20px ;
+    margin-top : -50px ;
+    width : 60% ;
+}
+
+.project-keywords {
+
+    color : rgb(70, 70, 70) ; 
+}
+
+.project-colors {
+
+    display : flex ;
+    margin-bottom : 20px ;
+}
+
+.project-color {
+
+    width : 20px ;
+    height : 20px ;
+    margin-right : 8px ;
+    border : solid 1px black ;
+}
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
+
+@media only screen and ( max-width : 730px ) {
+
+    hr {
+
+        display : block ;
+    }
+
+    /* Logos */
+
+    .project {
+
+        margin : 100px 30px ;
+        transition-duration : 0.2s ;
+
+        text-align : center ;
+        display : block ;
+    }
+
+    .project:hover {
+
+        outline : none ;
+    }
+
+    .project-content-all {
+
+        display : grid ;
+        margin-left : 0 ;
+    }
+
+    .project-img {
+
+        width : 300px ;
+        height : auto ;
+    }
+
+    .project-content-title {
+
+        display : none ;
+    }
+
+    .project-content {
+
+        font-size : 20px ;
+        width : 100% ;
+        margin-top : 30px ;
+    }
+
+    .project-colors {
+
+        display : flex ;
+        justify-content : center ;
+        margin-bottom : 20px ;
+    }
+
+    .project-color {
+
+        width : 20px ;
+        height : 20px ;
+        margin-right : 8px ;
+        border : solid 1px black ;
+    }    
+}
