@@ -1,0 +1,178 @@
+html , body {
+
+    width : 100% ;
+    height : 100% ;
+    margin : 0 ;
+    padding : 0 ;
+    /* background-image : url( "imgs/BG_Portfolio(3).svg" ) ; */
+    background-color: white ;
+    font-family :  Fustat ;
+    font-weight: normal ;
+    scroll-behavior : smooth ;
+    color : black ;
+    font-size : 20px ;
+}
+
+a { text-decoration : underline ; color : red ; }
+
+.back-btn {
+
+    width : 30px ;
+    height : 30px ;
+    position : fixed ;
+    top : 20px ; left : 20px ;
+    border-radius : 100% ;
+    background-color : black ;
+    display : flex ; align-items : center ; justify-content : center ;
+}
+
+.back-btn:hover {
+
+    transition-duration : 0.3s ;
+    background-color : red ;
+}
+
+.img-con {
+
+    display : flex ;
+    justify-content : center ; align-items : center ;
+}
+
+.intro-img {
+
+    width : 300px ;
+    margin : 300px 0 ;
+}
+
+/* Project */
+
+.project-con {
+
+    margin : 0 40px ;
+}
+
+.project-info {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr ;
+}
+
+.project-details {
+
+    justify-self : end ;
+    font-style: italic;
+}
+
+.project-details ul {
+
+    list-style-type : none ;
+}
+
+.con {
+
+    margin-top : 10px ;
+    padding : 40px ;
+    min-height : 400px ;
+    background-color : black ;
+    color : white ;
+}
+
+.title {
+
+    font-weight : 650 ;
+    font-size : 24px ;
+}
+
+.logo-fails {
+
+    max-width : 500px ;
+    min-width : 200px ;
+    box-shadow : 0 0 30px rgba(0,0,0,0.2) ;
+    margin : 50px 0 ;
+}
+
+
+
+
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+    font-family : fustat ;
+    font-size : 16px ;
+    font-weight : bolder ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
