@@ -1,0 +1,558 @@
+html , body {
+
+    width : 100% ;
+    height : 100% ;
+    margin : 0 ;
+    padding : 0 ;
+    /* background-image : url( "imgs/BG_Portfolio(3).svg" ) ; */
+    background-color: rgb(240, 240, 240) ;
+    font-family : Fustat, Outfit ;
+    font-weight: bolder ;
+    scroll-behavior : smooth ;
+}
+
+a {
+
+    text-decoration : none ;
+    color : black ;
+}
+
+::selection {
+
+    background-color : blueviolet ;
+    color : white ;
+}
+
+        /*****************   Navigate Bar   *****************/
+
+.navigate-bar-con {
+
+    display : flex ;
+    justify-content : center ;
+}
+
+.navigate-bar {
+
+    /* Glassmorphisim */
+
+    background: rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.10) ;
+    backdrop-filter: blur(5px) ;
+    -webkit-backdrop-filter: blur(5px) ;
+
+    
+
+    /* style */
+
+    position : fixed ;
+    border-radius: 30px ;
+    padding : 14px 6px ;
+    top : 20px ;
+    z-index : 10 ;
+}
+
+.header-link-1 , .header-link-2 , .header-link-3 {
+
+    color : black ;
+    font-size : 15px ;
+    font-weight: bolder ;
+    text-decoration : none ;
+    transition-duration : 0.2s ;
+    padding : 10px 20px ;
+}
+
+.header-link-1 { border-top-left-radius: 20px ; border-bottom-left-radius: 20px ; }
+.header-link-3 { border-top-right-radius: 20px ; border-bottom-right-radius: 20px ; }
+
+.header-link-1:hover , .header-link-2:hover , .header-link-3:hover {
+
+    color : white ;
+    background-color : black ;
+}
+
+.header-link-2-dropmenu {
+
+    background: rgba(255, 255, 255, 0.5) ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.10) ;
+    backdrop-filter: blur(5px) ;
+    -webkit-backdrop-filter: blur(5px) ;
+
+    position : fixed ;
+    display : NONE ;
+    grid-template-columns : 1fr ;
+    text-align : center ;
+    padding : 20px 20px ;
+    transform : translateY( 70px ) ;
+    border-bottom-right-radius : 10px ;
+    border-bottom-left-radius : 10px ;
+    transition-duration : 0.2s ;
+}
+
+.header-link-2-dropmenu a:hover {
+
+    text-decoration : underline ;
+}
+
+.header-link-2-dropmenu a { padding : 10px 0 }
+
+.show {
+
+    display : grid ;
+}
+
+        /*****************   Name & Speciality   *****************/
+
+.name-and-speciality-container {
+
+    margin : 180px 0 ; 
+    margin-left : 30px ;
+}
+
+.name {
+
+    font-family : "Climate Crisis" ;
+    font-size : 70px ;
+    font-weight : bold ;
+}
+
+.speciality {
+
+    color : rgb(0, 0, 0) ;
+    transform : translateY( 50px ) ;
+    font-family : Oswald ;
+    font-weight : bolder ;
+    font-size : 30px ;
+    
+    /* Neon Effect */
+
+   /* text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px blueviolet,
+      0 0 82px blueviolet,
+      0 0 92px blueviolet,
+      0 0 102px blueviolet,
+      0 0 151px blueviolet; */
+
+}
+
+        /*****************   Drop down Arrow   *****************/
+
+.go-down-arrow-con {
+
+    margin-top : 40px ;
+    text-align : center ;
+}
+
+.go-down-arrow-con img {
+
+    width : 80px ;
+}
+
+        /*****************   Projects   *****************/
+
+.project {
+
+    width : auto ;
+    margin : 100px 20px ;
+    text-align : center ;
+}
+
+.project img {
+
+    width : 100% ;
+}
+
+.project img:hover { cursor : pointer }
+
+        /*****************   Project Image Indicator   *****************/
+
+.project-img-indicator {
+
+    display : grid ;
+    grid-template-columns : repeat( 10 , 1fr ) ;
+    gap : 10px ;
+    margin-top : -10px ;
+}
+
+.project-img-indicator pre {
+
+    width : 100% ;
+    height : 2px ;
+    background-color : black ;
+    opacity : 20% ;
+}
+
+.project-img-indicator pre:hover {
+
+    cursor: pointer ;
+    opacity : 30% ;
+}
+
+        /*****************   Project Text   *****************/
+
+.project-content-and-info { 
+    
+    text-align : left ;
+    display : grid ;
+    grid-template-columns : 1fr 1fr 1fr ;
+}
+
+.project-content-title { font-size : 30px ; padding-right : 40px }
+.project-content-roles { font-size : 15px ; margin-top : -30px ; padding-right : 40px }
+
+.project-members {
+
+    display : flex ;
+    gap : 3px ;
+}
+
+.project-members img {
+
+    width : 30px ;
+    height : auto ;
+    border-radius : 100% ;
+}
+
+.project-content-btn { 
+    
+    border : solid 1px black ; 
+    border-radius : 10px ; 
+    width : 300px ; 
+    height : 50px ; 
+    text-align : center ; 
+    margin-top : 30px ;
+    transition-duration : 0.2s ; 
+}
+.project-content-btn:hover { background-color : black ; color : white ; cursor : pointer }
+
+.project-content-and-info {
+
+    display : flex ;
+    gap : 30px ;
+}
+
+.project-info { grid-column : span 2 ; justify-self : center ; font-size : 25px }
+
+        /* Project 4 - make it look in-active */
+
+        /*****************   Additional Projects   *****************/
+
+.additional-projects {
+
+    margin : 200px 20px ;
+    height : auto ;
+}
+
+.additional-projects-title {
+
+    font-size : 30px ;
+}
+
+.additional-project {
+
+    width : 100% ;
+    height : 100px ;
+    margin-top : 20px ; 
+    border : solid 0.5px ;
+    border-radius : 15px ;
+    transition-duration : 0.2s ;
+}
+
+.additional-project:hover {
+
+    background-color : white ;
+    border-color : white ;
+    filter : brightness( 1 ) invert(1)
+}
+
+.additional-project-title {
+
+    font-size : 25px ;
+    padding : 10px 0px 10px 30px ;
+}
+
+.additional-project-img {
+
+    width : 100% ;
+    height : 100px ;
+    object-fit : cover ;
+    grid-column : span 3 ;
+}
+
+        /*****************   About   *****************/
+
+#about-container {
+
+    margin : 200px 10px 10px 0 ;
+    padding : 0px ;
+    border-radius : 20px ;
+}
+
+.about-title-container {
+
+    display : grid ;
+    grid-template-columns : 1fr 1fr 1fr ;
+}
+
+.about-title {
+
+    font-size : 60px ;
+    text-align : center ;
+    font-weight : bolder ;
+}
+
+.about-content { 
+
+    text-align : center ;
+    font-size : 20px ;
+    margin : 50px ;
+}
+
+.about-additions {
+
+    justify-self : center ;
+    margin : 0 50px ;
+}
+
+.contact-and-resources-container {
+
+    display : grid ;
+    grid-template-columns : 1fr ;
+    justify-content : center ;
+}
+
+.contact-btn {
+
+    border : solid 1px ;
+    border-radius : 15px ;
+    padding : 20px 0 ;
+    transition-duration: 0.2s ;
+}
+
+.contact-btn:hover {
+
+    /*background-color : rgb(233, 62, 119) ; */
+    background-color : black ;
+    background-repeat: no-repeat ;
+    background-size : 1000px ;
+    color : white ;
+}
+
+.contact-btn p { 
+    
+    text-align : center ;
+    font-size : 20px ;
+    font-weight : 20px ;
+}
+
+.copy-icon:hover {
+
+    cursor : pointer ;
+}
+
+        /*****************   Footer   *****************/
+
+.footer {
+
+    margin-top : 150px ;
+    background-color : black ;
+    color : white ;
+}
+
+.mail-form {
+
+    padding : 50px 20px ;
+    margin : 0 ;
+}
+
+.msg {
+
+    padding : 10px ;
+    height : 100px ;
+    background-color : white ;
+    color : black ;
+    margin-top : 10px ;
+    border : none ;
+    width : 300px ;
+    font-family : Outfit ;
+}
+
+.msg:focus {
+
+    outline : none ;
+}
+
+.send-msg-btn {
+
+    margin-left : 5px ;
+    font-family : Fustat ;
+    font-weight : bolder ;
+    border : solid 0.3px white ;
+    background-color : black ;
+    padding : 20px 0 ;
+    width : 100px ;
+    color : white ;
+    transform : translateY( -20px ) ;
+    transition-duration : 0.2s ;
+}
+
+.send-msg-btn:hover {
+
+    background-color : white ;
+    color : black ;
+    cursor: pointer ;
+}
+
+.footer-links-con-main {
+
+    display : grid ;
+    align-items : start ;
+    grid-template-columns : 1fr 1fr 1fr ;
+    margin-top : 100px ;
+}
+
+.footer-links-con {
+
+    display : grid ;
+    align-items : end ;
+    gap : 10px ;
+}
+
+.footer-links-con a { 
+    
+    transition-duration : 0.2s ;
+    padding : 5px ; 
+    color : white ;
+}
+
+.footer-links-con a:hover { background-color : white ; color : black }
+
+.footer-links-title { font-size : 24px ; font-weight : 1000px }
+
+/*                    ///////////////         Making it Responsive        ///////////////        */
+
+
+@media only screen and ( max-width : 960px ){
+
+
+            /*****************   Name & Speciality   *****************/
+
+    .name-and-speciality-container {
+
+        display : grid ;
+        grid-template-columns: 1fr ;
+    }
+
+    .name {
+
+        font-size : 50px ;
+        font-weight : bold ;
+    }
+
+        /*****************   Projects *******************/
+
+            /*****************   Project Text   *****************/
+
+        .project-content-and-info { 
+    
+            text-align : left ;
+            display : grid ;
+            grid-template-columns : 1fr 1fr ;
+        }
+        
+        .project-content-title { font-size : 30px ; padding-right : 40px }
+        .project-content-roles { font-size : 15px ; margin-top : -20px ; padding-right : 40px }
+        .project-content-btn { 
+            
+            border : solid 1px black ; 
+            border-radius : 10px ; 
+            width : 300px ; 
+            height : 50px ; 
+            text-align : center ; 
+            margin-top : 30px ;
+            transition-duration : 0.2s ; 
+        }
+        .project-content-btn:hover { background-color : black ; color : white ; cursor : pointer }
+        
+        .project-info { grid-column : span 2 ; justify-self : center ; font-size : 20px }
+
+             /*****************   About   *****************/
+
+    #about-container {
+
+        margin : 100px 10px 10px 0 ;
+        padding : 0px ;
+    }
+
+    .about-title {
+
+        text-align : center ; 
+        font-size : 60px ;
+        font-weight : bold ;
+    }
+
+    .about-content { 
+
+        text-align : center ;
+        font-size : 20px ;
+        margin : 20px ;
+    }
+
+
+            /*****************   About Additions   *****************/
+
+    .about-additions {
+
+        display : grid ;
+        grid-template-columns : 1fr ;
+        margin-top : 100px ;
+    }
+
+            /*****************   Contact & Resources   *****************/
+
+    .contact-and-resources-container {
+
+        display : grid ;
+        grid-template-columns : 1fr ;
+    }
+
+            /*****************   Contact   *****************/
+
+    .contact-btn {
+
+        border : solid 1px ;
+        border-radius : 100px ;
+        padding : 0 20px ;
+        margin : 50px 0 0 10px ;
+        transition-duration: 0.2s ;
+        text-align : center ;
+    }
+
+            /*****************   Resources   *****************/
+
+    .resources h1 {
+
+        padding : 50px 10px 0 10px ;
+        text-align : center ;
+    }
+}
+
+@media only screen and ( max-width : 650px ) {
+
+                    /*****************   Projects   *****************/
+
+    .name {
+
+        font-size : 35px ;
+    }
+
+    .speciality {
+
+        font-size : 22px ;
+        margin-top : -20px ;
+    }
+
+    .project-1-img , .project-2-img , .project-3-img { transition-duration : 0.2s ; margin-bottom : 10px }
+}

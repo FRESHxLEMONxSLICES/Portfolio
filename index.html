@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="imgs/MyBrand.svg">
+    <title>Portfolio | Mohammad Ozier</title>
+
+    <!-- Emailjs Form for quick contact -->
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "_2U45_RSuc1Gu58wF",
+          });
+    })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Bokor&family=Climate+Crisis&family=Geist+Mono:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mochiy+Pop+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Oswald : Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- Fustat : Font -->
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<!-- Navigate Bar -->
+
+<body>
+    <div class="navigate-bar-con">
+        <div class="navigate-bar">
+            <div class="header-links">
+                <a class="header-link-1" href=".">Home</a>
+                <a class="header-link-2" href="#projects">Projects</a>
+                <a class="header-link-3" href="#about-container">About</a>
+            </div>
+        </div>
+        <div class="header-link-2-dropmenu">
+            <a class="header-link-2-dropmenu-link-1" href="Projects/SouthKeystone/sk.html">South Keystone</a><br>
+            <a class="header-link-2-dropmenu-link-2" href="Projects/TaxiF/taxif.html">TaxiF</a><br>
+            <a class="header-link-2-dropmenu-link-3" href="Projects/cracker/cracker.html">CRACKER</a><br>
+            <a class="header-link-2-dropmenu-link-3" href="Projects/Maliks/maliks.html">MALIKs</a><br>
+        </div>
+    </div>
+
+<!-- Name and Speciality -->
+
+    <div class="name-and-speciality-container">
+        <h2 class="speciality">Graphic Designer</h2>
+        <h1 class="name">MOHAMMAD OZIER</h1>
+    </div>
+
+<!-- Go down arrow
+
+    <div class="go-down-arrow-con">
+        <img class="go-down-arrow" src="imgs/Go down arrow.gif">
+    </div> -->
+
+<!-- Prjects -->
+  
+    <div id="projects">
+
+        <!-- Project 1 • -->
+
+        <div id="project-1" class="project project-1">
+            <img class="project-1-img" src="" onclick="changeProject1Img()">
+            <div class="project-img-indicator project-1-img-indicator">
+                <pre class="project-pre project-1-pre-1" onclick="showImage1( 0 )">        </pre>
+                <pre class="project-pre project-1-pre-2" onclick="showImage1( 1 )">        </pre>
+                <pre class="project-pre project-1-pre-3" onclick="showImage1( 2 )">        </pre>
+                <pre class="project-pre project-1-pre-4" onclick="showImage1( 3 )">        </pre>
+                <pre class="project-pre project-1-pre-5" onclick="showImage1( 4 )">        </pre>
+            </div>
+            <div class="project-content-and-info project-1-conent-and-info">
+                <div class="project-content project-1-content">
+                    <div class="project-content-title project-1-content-title">
+                        <p><b>South Keystone</b></p>
+                    </div>
+                    <div class="project-content-roles project-1-content-roles">
+                        <p>Branding <x style="color:blueviolet">&nbsp;•&nbsp;</x> Editorial design</p>
+                    </div>
+                    <a href="Projects/SouthKeystone/sk.html"><div class="project-content-btn project-1-content-btn" id="toggleBtn">
+                        <p>Enter Project</p>
+                    </div></a>
+                </div>
+                <div class="project-info project-1-info">
+                    <p>A fashion brand based in the American South, created to add a bold and modern lifestyle for women. Empowering customers to embrace their individuality with confidence.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 • -->
+
+        <div id="project-2" class="project project-2">
+            <img class="project-2-img" src="" onclick="changeProject2Img()">
+            <div class="project-img-indicator project-2-img-indicator">
+                <pre class="project-pre project-2-pre-1" onclick="showImage2( 0 )">        </pre>
+                <pre class="project-pre project-2-pre-2" onclick="showImage2( 1 )">        </pre>
+                <pre class="project-pre project-2-pre-3" onclick="showImage2( 2 )">        </pre>
+                <pre class="project-pre project-2-pre-4" onclick="showImage2( 3 )">        </pre>
+                <!-- <pre class="project-pre project-2-pre-5" onclick="showImage2( 4 )">        </pre> -->
+            </div>
+            <div class="project-content-and-info project-2-conent-and-info">
+                <div class="project-content project-2-content">
+                    <div class="project-content-title project-2-content-title">
+                        <p><b>TaxiF</b></p>
+                    </div>
+                    <div class="project-content-roles project-2-content-roles">
+                        <p>Re-Branding <x style="color:blueviolet">&nbsp;•&nbsp;</x> Web design</p>
+                    </div>
+                    <a href="Projects/TaxiF/taxif.html"><div class="project-content-btn project-2-content-btn" id="toggleBtn2">
+                        <p>Enter Project</p>
+                    </div></a>
+                </div>
+                <div class="project-info project-2-info">
+                    <p>Transportation Company - their goal is to keep you comfortable on the road by enhancing security features and delivering top-notch service with a touch of joy to brighten your day.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 • -->
+
+        <div id="project-3" class="project project-3">
+            <img class="project-3-img" src="" onclick="changeProject3Img()">
+            <div class="project-img-indicator project-3-img-indicator">
+                <pre class="project-pre project-3-pre-1" onclick="showImage3( 0 )">        </pre>
+                <pre class="project-pre project-3-pre-2" onclick="showImage3( 1 )">        </pre>
+                <pre class="project-pre project-3-pre-3" onclick="showImage3( 2 )">        </pre>
+               <!-- <pre class="project-pre project-3-pre-4" onclick="showImage3( 3 )">        </pre>
+                <pre class="project-pre project-3-pre-5" onclick="showImage3( 4 )">        </pre> -->
+            </div>
+            <div class="project-content-and-info project-3-conent-and-info">
+                <div class="project-content project-3-content">
+                    <div class="project-content-title project-3-content-title">
+                        <p><b>CRACKER</b></p>
+                    </div>
+                    <div class="project-content-roles project-3-content-roles">
+                        <p>Typography</p>
+                    </div>
+                    <a href="Projects/cracker/cracker.html"><div class="project-content-btn project-3-content-btn" id="toggleBtn3">
+                        <p>Enter Project</p>
+                    </div></a>
+                </div>
+                <div class="project-info project-3-info">
+                    <p>A typeface which is perfect for bold headlines, impactful branding, and projects that demand a loud. CRACKER stands as a testament to defiant design and fearless expression.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 4 - team project • -->
+        
+        <div class="project project-4" id="project-4">
+            <img class="project-4-img" src="" onclick="changeProject4Img()">
+            <div class="project-img-indicator project-4-img-indicator">
+                <pre class="project-pre project-4-pre-1" onclick="showImage4( 0 )">        </pre>
+                <pre class="project-pre project-4-pre-2" onclick="showImage4( 1 )">        </pre>
+                <pre class="project-pre project-4-pre-3" onclick="showImage4( 2 )">        </pre>
+            </div>
+            <div class="project-content-and-info project-4-conent-and-info">
+                <div class="project-content project-4-content">
+                    <div class="project-content-title project-4-content-title">
+                        <p><b>MALIKs</b></p>
+                    </div>
+                    <div class="project-content-roles project-4-content-roles">
+                        <p>Logo design <x style="color:blueviolet">&nbsp;•&nbsp;</x> Web design</p>
+                    </div>
+                    <a href="Projects/Maliks/maliks.html"><div class="project-content-btn project-4-content-btn" id="toggleBtn4">
+                        <p>Enter Project</p>
+                    </div></a>
+                </div>
+                <div class="project-info project-4-info">
+                    <p>Number one B2B & B2C in lebanon - Maliks believe in the honesty and trust, believe in team work and trust in our people.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="additional-projects" class="additional-projects">
+
+        <p class="additional-projects-title"><img src="imgs/Target2 icon.svg" style="width:20px">&nbsp;&nbsp;More Projects</p>
+        <a href="AdditionalProjects/Logofolio/logofolio.html"><div class="additional-project additional-project-2">
+            <p class="additional-project-title additional-project-2-title"><img width="20px" src="imgs/Baften brandmark.png"> &nbsp;Logofolio</p>
+        </div></a>
+
+        <a href="AdditionalProjects/Frontend/frontend-projects.html"><div class="additional-project additional-project-1">
+            <p class="additional-project-title additional-project-1-title"><img width="20px" src="imgs/coding-icon.webp"> &nbsp;Front-end</p>
+        </div></a>
+
+
+        <a href="AdditionalProjects/Gallary/gallary.html"><div class="additional-project additional-project-3">
+            <p class="additional-project-title additional-project-3-title"><img width="20px" src="imgs/font icon.svg"> &nbsp;Gallery +</p>
+        </div></a>
+        
+        <!-- <a href="#"><div class="additional-project additional-project-4">
+            <p class="additional-project-title additional-project-3-title"><img width="20px" src="imgs/Baften brandmark.png"> &nbsp;Social Media Posts</p>
+        </div></a> -->
+
+<!-- About --> 
+
+    <div id="about-container">
+        <h1 class="about-title">About Me</h1>
+        <p class="about-content"><em style="background-color:black; padding: 2px 10px; color:white">Visual problem solver </em>, loves finding simple design solutions to complicated challenges with background in frontend development. Based in Lebanon & looking for an opportunity to collaborate with an amazing team in an outstanding company. </p>
+        <div class="about-additions">
+            <div class="contact-and-resources-container">
+                <a href="https://www.linkedin.com/in/mohammad-ozier-370a93289/"><div class="contact-btn"><p>Lets Connect</p></div></a>
+                <div class="traits">
+                    <p style="color:gray;text-align:center">Trustful &nbsp;&nbsp; • &nbsp;&nbsp; Self developer &nbsp;&nbsp; • &nbsp;&nbsp; This is for you <x style="opacity:0.5">🌼</x></p>
+                </div>
+            </div>
+        </div>
+        <p class="email" style="text-align:center">mhamadoz.design@gmail.com <img class="copy-icon" src="imgs/copy-icon.svg" width="20px" style="transform:translateY(4px)" onclick="copyEmail()"></p>
+    </div></div>
+
+<!-- Footer -->
+
+    <div class="footer">
+        <div class="mail-form">
+            <p>Need anything ? <em style="background-color:white; padding: 5px 10px; color:black">let me know</em></p>
+            <textarea class="msg" placeholder="Type Something ..."></textarea>
+            <button class="send-msg-btn" onclick="sendEmail()">Submit ✉︎</button>
+            <div class="footer-links-con-main">
+                <div class="footer-links-con footer-links-con-1">
+                    <p class="footer-links-title" style="font-weight:bolder">Main</p>
+                    <a class="footer-link" href=".">Home</a>
+                    <a class="footer-link" href="#">About</a>
+                </div>
+                <div class="footer-links-con footer-links-con-2">
+                    <p class="footer-links-title" style="font-weight:bolder">Projects</p>
+                    <a class="footer-link" href="Projects/SouthKeystone/sk.html">South Keystone</a>
+                    <a class="footer-link" href="Projects/TaxiF/taxif.html">TaxiF</a>
+                    <a class="footer-link" href="Projects/cracker/cracker.html">CRACKER</a>
+                </div>
+                <div class="footer-links-con footer-links-con-3">
+                    <p class="footer-links-title" style="font-weight:bolder">More Projects</p>
+                    <a class="footer-link" href="AdditionalProjects/Frontend/frontend-projects.html">Frontend</a>
+                    <a class="footer-link" href="AdditionalProjects/Logofolio/logofolio.html">Logofolio</a>
+                    <a class="footer-link" href="AdditionalProjects/Gallary/gallary.html">Gallary +</a>
+                </div>
+            </div>
+            <h5 style="margin-top : 100px">&copy; 2024 Lemon. All rights reserved</h5>
+        </div>
+    </div>
+
+<!-- Javascript linker -->
+
+    <script src="index.js"></script>
+
+</body>
+</html>
